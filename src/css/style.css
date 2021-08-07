@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+    border-radius: 7px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: #eeeeee;
+    border-radius: 7px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #cccccc;
+    border-radius: 7px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: #aaaaaa;
+}
+
+.navbar{
+    width: 100%;
+    background-color: rgba(0,0,0, 0.8);
+    padding: 20px 20px 10px 20px;
+    margin: 0;
+    color: #fff;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.navbar .title{
+    font-size: 32px;
+    font-weight: 600;
+    margin: 10px 0 18px;
+}
+
+.load{
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    margin-top: 300px;
+}
+
+.loader{
+    background: transparent;
+    height: 10vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.orgcard{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 10px 105px;
+    padding: 30px 0px;
+    height: 100%;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.cardInfobtn{
+    background: transparent;
+    outline: none;
+    border: none;
+    color: #666666;
+    margin: 5px 0px;
+    padding: 0px 0px;
+    cursor: pointer;
+}
+
+.loginName{
+    color: #444;
+}
+
+.ui.card.org_card{
+    margin-bottom: 40px;
+}
+
+.ui.card.org_card:hover{
+    box-shadow: 10px 10px 5px #aaaaaa;
+    transition: .3s all ease;
+    cursor: pointer;
+    transform: scale3d(1.03, 1.03, 1.03);
+    border: 1px solid #cccccc;
+}
+
+.nodisp{
+    display: none;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 3%;
+    background-color: #eeeeee;
+    padding: 2%;
+    border-radius:3px;
+}
+
+.profile_img{
+    border-right: 1px solid #dddddd;
+}
+
+.pimg{
+    border-radius: 5px;
+    height: 50vh;
+}
+
+.profile_data{
+    padding-left: 25px;
+    padding-top: 20px;
+}
+
+.orgid{
+    font-size: 18px;
+    font-weight: 400;
+    color: #666666;
+}
+
+.orgname{
+    font-size: 28px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color:#666666;
+    margin-bottom: 5px;
+}
+
+.orgtype{
+    font-size: 14px;
+    font-weight: 400;
+    color: #666666;
+}
+
+.subgrid{
+    margin: 30px 0 15px 0;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.column{
+    margin-right: 15px;
+    border-right: 1px solid #ddd;
+    color: rgba(0,0,0, 0.7);
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+.column:last-child{
+    border-right: none;
+}
+
+.profile_info{
+    line-height: 3;
+    font-size: medium;
+    color: #666666;
+}
+
+.link{
+    color: #666666;
+    text-decoration: none;
+    background-color: rgba(0,0,0, 0.8);
+    padding: 8px 6px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.link:hover{
+    background-color: transparent;
+    border: 1px solid rgba(0,0,0, 0.8);
+    color: rgba(0,0,0, 0.8);
+}
+
+.page{
+    margin-left: 50px;
+}
+
+.pageNumbers{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.pageNumbers li{
+    padding: 10px 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.pageNumbers li:hover{
+    background-color: rgba(0,0,0, 0.6);
+    color: #fff;
+}
+
+.pageNumbers li.active{
+    background-color: rgba(0,0,0, 0.6);
+    color: #fff;
+    text-decoration: underline;
+}
+
+.pageNumbers button{
+    outline: none;
+    border: none;
+    background: transparent;
+}
+
+.pageNumbers button:hover{
+    color: #fff;
+}
+
+.pagination{
+    margin-bottom: 40px !important;
+}
